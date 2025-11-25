@@ -108,3 +108,4 @@ D:\Riot Games\backend\Misa.Fresher2025.Api\Misa.Fresher2025.Api\obj\Debug\net8.0
 D:\Riot Games\backend\Misa.Fresher2025.Api\Misa.Fresher2025.Api\obj\Debug\net8.0\Misa.Fresher2025.Api.pdb
 D:\Riot Games\backend\Misa.Fresher2025.Api\Misa.Fresher2025.Api\obj\Debug\net8.0\Misa.Fresher2025.Api.genruntimeconfig.cache
 D:\Riot Games\backend\Misa.Fresher2025.Api\Misa.Fresher2025.Api\obj\Debug\net8.0\ref\Misa.Fresher2025.Api.dll
+D:\Riot Games\backend\Misa.Fresher2025.Api\Misa.Fresher2025.Api\obj\Debug\net8.0\Misa.Fresher2025.Api.sourcelink.json

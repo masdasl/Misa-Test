@@ -24,12 +24,14 @@ const pageSize = ref<number>(Number(pageSizeOptions[0]?.value));
 const current = ref(props.pageNo || 1);
 const sortType = ref<boolean>(true);
 const selectedRowKey = ref<string | null>(null);
+const activeSortKey = ref<string | null>(null);
 watch(
   () => props.pageNo,
   (val) => {
     if (val) current.value = val;
   }
 );
+
 // -------------------------------------------------------
 // Công dụng: Chọn hoặc bỏ chọn tất cả các hàng trong bảng
 // Đầu vào: Không có
@@ -180,6 +182,7 @@ function selectedItemUpdate(value: string, type: string) {
 // Tạo ngày: 11/18/2025
 // -------------------------------------------------------
 function sortTableBySortKey(value: string, isSort: boolean) {
+  activeSortKey.value = value;
   sortType.value = !isSort;
   selectedRowKeys.value = [];
   emit("sort:sortTable", value, sortType.value);
@@ -225,10 +228,16 @@ function sortTableBySortKey(value: string, isSort: boolean) {
                 >
                   <span class="font-14">{{ col.title }}</span>
                   <span
-                    class="material-symbols-outlined font-14 mt-0.5 opacity-0"
-                    :class="{ 'rotate-180': !sortType }"
-                    >keyboard_arrow_down</span
-                  >
+                    class="icon icon-angle-down font-14 mt-0.5 opacity-0"
+                    :class="[
+                      activeSortKey === col.dataIndex
+                        ? 'opacity-100'
+                        : 'opacity-0',
+                      activeSortKey === col.dataIndex && !sortType
+                        ? 'rotate-180'
+                        : '',
+                    ]"
+                  ></span>
                 </div>
               </template>
             </th>
@@ -349,7 +358,7 @@ function sortTableBySortKey(value: string, isSort: boolean) {
   </div>
 </template>
 <style scoped>
-.title-table-header:hover .material-symbols-outlined {
+th:hover .icon {
   opacity: 1;
 }
 </style>

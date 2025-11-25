@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Misa.Fresher2025.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+509de3272865bdf76cee3c90808f580e04069324")]
 [assembly: System.Reflection.AssemblyProductAttribute("Misa.Fresher2025.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Misa.Fresher2025.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

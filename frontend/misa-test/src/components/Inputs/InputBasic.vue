@@ -31,11 +31,7 @@ function changeInput(value: string) {
   >
     <span
       v-if="props.iconLeft"
-      :class="[
-        'material-symbols-outlined icon',
-        props.customStyleIconLeft,
-        iconLeft,
-      ]"
+      :class="[' icon', props.customStyleIconLeft, iconLeft]"
     >
     </span>
 
@@ -50,7 +46,7 @@ function changeInput(value: string) {
     />
     <span
       v-if="props.iconRight"
-      :class="['material-symbols-outlined', props.customStyleIconLeft]"
+      :class="['icon', props.customStyleIconLeft]"
     ></span>
     <slot v-if="props.customIcon"></slot>
   </div>

@@ -24,11 +24,7 @@ const handleClick = () => {
   >
     <span
       v-if="props.iconName"
-      :class="[
-        'material-symbols-outlined  font-14 mx-2 icon',
-        props.customIcon,
-        props.iconName,
-      ]"
+      :class="['  font-14 mx-2 icon', props.customIcon, props.iconName]"
     >
     </span>
     <span

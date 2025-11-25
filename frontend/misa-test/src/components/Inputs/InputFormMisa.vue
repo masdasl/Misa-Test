@@ -260,9 +260,8 @@ async function checkRequire(key: string, value: any, type?: string) {
                 </option>
               </select>
               <span
-                class="absolute top-1/5 right-1/55 flex items-center pointer-events-none text-gray-500 material-symbols-outlined"
+                class="absolute top-1/5 right-1/55 flex items-center pointer-events-none text-gray-500 icon icon-angle-down"
               >
-                keyboard_arrow_down
               </span>
             </div>
             <span
@@ -438,9 +437,8 @@ async function checkRequire(key: string, value: any, type?: string) {
                 </option>
               </select>
               <span
-                class="absolute top-1/5 right-1/55 flex items-center pointer-events-none text-gray-500 material-symbols-outlined"
+                class="absolute top-1/5 right-1/55 flex items-center pointer-events-none text-gray-500 icon icon-angle-down"
               >
-                keyboard_arrow_down
               </span>
             </div>
             <span

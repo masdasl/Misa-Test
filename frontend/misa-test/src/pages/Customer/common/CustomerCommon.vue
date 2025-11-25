@@ -124,9 +124,7 @@ async function saveData() {
           customerId ? "Sửa thông tin Khách hàng" : "Thêm Khách hàng"
         }}</span>
         <span class="font-16 font-bold pt-1 ml-1">Mẫu tiêu chuẩn</span>
-        <span class="material-symbols-outlined text-gray-500 mx-1.5 pt-1"
-          >keyboard_arrow_down</span
-        >
+        <span class="icon icon-angle-down text-gray-500 mx-1.5 pt-1"></span>
         <a href="" class="font-14 pt-1">Sửa bố cục</a>
       </div>
       <div class="flex py-3 px-1 gap-x-3 items-center">

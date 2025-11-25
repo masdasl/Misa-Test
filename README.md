@@ -7,7 +7,7 @@
 cd ./frontend/misa-test ở đấy đã có file README đọc và làm theo
 
 ### 2.Back-end
-
+```bash
 cd ./backend/Misa.Fresher2025.Api
 vao appsettings.json rồi điền kết nối database vào "DefaultConnection": "YOUR_CONNECTION_STRING_HERE" (thay "YOUR_CONNECTION_STRING_HERE" kết nối database của bạn)
 Tải các packet cho dự án:

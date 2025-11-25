@@ -15,13 +15,13 @@ const props = defineProps<{
   >
     <span
       :class="[
-        'icon',
+        'icon mb-1',
         props.iconName,
         props.isActive ? 'background-primary' : '',
       ]"
     >
     </span>
-    <span class="font-14 pl-2 pt-1">
+    <span class="font-14 pl-2">
       {{ props.label }}
     </span>
   </RouterLink>

@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@import "./assets/css/icon.css";
+@import "./assets/css/text-size.css";
+:root {
+  --background-color: rgb(226, 228, 233);
+  --primary-color: #4262f0;
+  --secondary-color: rgb(231, 235, 253);
+}
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: #333;
+  overflow: hidden;
+}
+a {
+  color: #0077cc;
+  text-decoration: none;
+  cursor: pointer;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[disabled],
+textarea[disabled],
+select[disabled] {
+  cursor: not-allowed;
+}
+.text-primary {
+  color: var(--primary-color);
+}
+.background-primary {
+  background-color: var(--primary-color) !important;
+}

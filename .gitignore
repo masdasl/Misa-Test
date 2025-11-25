@@ -1,0 +1,4 @@
+frontend/misa-test/node_modules/
+frontend/misa-test/dist/
+frontend/misa-test/.env
+**/.vs/
